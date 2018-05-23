@@ -12,10 +12,12 @@ pip2 install -r requirements.txt
 python2 main2.py
 ```
 
-## Requeriments
+## Requeriments (install-deps.sh)
 ```
 Python 2.7
+pip
 dlib
+awscli
 ```
 
 ## Known Issues

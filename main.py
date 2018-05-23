@@ -9,7 +9,8 @@ from multiprocessing import Pool
 import pytz
 
 #Get the Client
-session = boto3.Session(profile_name='personal')
+#session = boto3.Session(profile_name='personal')
+session = boto3.Session()
 rekog_client = session.client("rekognition", region_name='us-east-1')
 
 #Camera Parameters
